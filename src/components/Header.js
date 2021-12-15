@@ -47,11 +47,17 @@ export default function Header() {
         </Link>
       </div>
       <div className="text-base leading-5">
+      <a
+          href="/about"
+          className="font-medium text-gray-500 hover:text-gray-700 mr-4"
+        >
+          About
+        </a>
         <a
           href="https://github.com/evuori"
           className="font-medium text-gray-500 hover:text-gray-700"
         >
-          GitHub &rarr;
+          GitHub
         </a>
       </div>
     </header>
