@@ -6,6 +6,9 @@ const withSyntaxHighlighting = require('./remark/withSyntaxHighlighting')
 const withProse = require('./remark/withProse')
 
 module.exports = withBundleAnalyzer({
+  env: {
+    NEXT_PUBLIC_GA_ID: process.env.NEXT_PUBLIC_GA_ID
+  },
   pageExtensions: ['js', 'jsx', 'mdx'],
   experimental: {
     modern: true,
